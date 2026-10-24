@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFB020"/>
+      <stop offset="55%" stop-color="#FF7800"/>
+      <stop offset="100%" stop-color="#F04416"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular brand background -->
+  <circle cx="256" cy="256" r="237" fill="#FFFFFF"
+          stroke="url(#orange)" stroke-width="14"/>
+
+  <!-- Letter D -->
+  <path d="M105 135 H202
+           C282 135 322 184 322 256
+           C322 328 282 377 202 377 H105 Z
+           M157 185 V327 H201
+           C246 327 269 301 269 256
+           C269 211 246 185 201 185 Z"
+        fill="url(#orange)" fill-rule="evenodd"/>
+
+  <!-- Database stack -->
+  <ellipse cx="365" cy="190" rx="55" ry="22" fill="url(#orange)"/>
+  <path d="M310 190 V270
+           C310 283 335 294 365 294
+           C395 294 420 283 420 270 V190
+           C420 203 395 214 365 214
+           C335 214 310 203 310 190 Z"
+        fill="url(#dark)"/>
+
+  <path d="M310 229 C310 242 335 253 365 253
+           C395 253 420 242 420 229"
+        fill="none" stroke="#FFFFFF" stroke-width="7"/>
+
+  <path d="M310 266 C310 279 335 290 365 290
+           C395 290 420 279 420 266"
+        fill="none" stroke="#FFFFFF" stroke-width="7"/>
+
+  <!-- Orbit accent -->
+  <path d="M155 366 C220 405 342 362 410 300"
+        fill="none" stroke="url(#orange)" stroke-width="15"
+        stroke-linecap="round"/>
+</svg>
